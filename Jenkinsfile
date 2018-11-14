@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('checkout') {
       steps {
-        git(url: 'https://github.com/aminefzi/test.git', branch: 'mster')
+        git(url: 'https://github.com/aminefzi/test.git', branch: 'master')
       }
     }
   }
